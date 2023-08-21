@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+.logo img {
+    max-height: 80px;
+}
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: rgb(177, 20, 81);
+}
+.colorful-button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:rgb(177, 20, 81);
+    transition: background-color 0.3s, color 0.3s;
+}
+.colorful-button:hover {
+    background-color: whitesmoke;
+    color: rgb(177, 20, 81);
+}
+.colorful-button:active {
+    background-color: bisque;
+}
+
+.main{
+    display: flex;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 20px;
+}
+.main div{
+    padding: 40px;
+    margin:0;
+
+}
+.main img{
+    width: 400px;
+    height: 400px;
+}
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-content p {
+    margin: 5px 0;
+}
