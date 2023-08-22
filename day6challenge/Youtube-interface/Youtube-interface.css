@@ -1,0 +1,58 @@
+.body{
+    margin: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    margin: 20px;
+
+   
+
+}
+.subscribe-btn {
+    background-color: #c4302b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-btn:hover {
+    background-color: #d73933;
+}
+
+.subscribe-btn:focus {
+    outline: none;
+}
+
+.subscribe-btn:active {
+    background-color: #a32b25;
+}
+
+.sectionbelow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionbelow img{
+    width: 45px;
+    height: 45px;
+}
+.main section{
+    margin: 10px;
+
+}
+.logo{
+    width: 90px;
+    height: 30px;
+}
+.main{
+    margin: 30px;
+    display: flex;
+}
