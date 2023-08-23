@@ -1,0 +1,33 @@
+.my-class{
+    background-color:rgb(222, 242, 249);
+    box-shadow: inset;
+}
+}
+.left{
+    display: inline-block;
+}
+.right{
+    display: inline-block;
+}
+/* .img{
+    width: 180px;
+} */
+.fbtext{
+    font-size: x-small;
+}
+.Forgottenyourpassword{
+    font-size: xx-small;
+    color: rgb(38, 76, 188) ;
+    
+}
+input{
+    margin-top:0,1rem;
+}
+input::placeholder{
+    opacity:0,1;
+    font-size: x-small;
+    color: gray;
+}
+.login{
+    font-size: xx-small;
+}
